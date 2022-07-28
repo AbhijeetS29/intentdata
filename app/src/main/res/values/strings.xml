@@ -13,4 +13,6 @@
     <string name="booleandata">Boolean value</string>
     <string name="BooleanValue">Enter a Boolean data only t or f</string>
     <string name="submit">Submit</string>
+    <string name="values">"Entered values are"</string>
+    <string name="value_s">entered values are</string>
 </resources>

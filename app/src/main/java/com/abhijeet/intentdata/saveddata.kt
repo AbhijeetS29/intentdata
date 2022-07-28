@@ -21,12 +21,18 @@ class saveddata : AppCompatActivity() {
         setContentView(binding.root)
 
         intent?.let {
-           strin = it.getStringExtra("string") as String
-            integr = it.getIntExtra("integer", 0)
-        cha=it.getCharExtra("character",'u')
-         lon=it.getLongExtra("long",0L)
-          shor=it.getShortExtra("short",0)
-           boolea=it.getBooleanExtra("boolean",false)
+            (if (it.hasExtra("string"))
+            strin = it.getStringExtra("string") as String)
+            (if (it.hasExtra("integer"))
+            integr = it.getIntExtra("integer", 0))
+            (if (it.hasExtra("character"))
+            cha=it.getCharExtra("character",'u'))
+            (if(it.hasExtra("long"))
+            lon=it.getLongExtra("long",0L))
+            (if(it.hasExtra("short"))
+            shor=it.getShortExtra("short",0))
+            (if(it.hasExtra("boolean"))
+            boolea=it.getBooleanExtra("boolean",false))
         }?:kotlin.run {  }
         binding.tvstring.setText(strin)
         binding.tvstring2.setText (integr.toString())

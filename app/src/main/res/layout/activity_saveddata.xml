@@ -8,6 +8,14 @@
     android:layout_height="match_parent"
     tools:context=".saveddata"
     android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/value_s"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/Green"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
 
     <TextView
         android:id="@+id/tvstring"

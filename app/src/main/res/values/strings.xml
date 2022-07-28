@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">intentdata</string>
+    <string name="Integer">Integer value</string>
+    <string name="intgerValue">Enter a Integer Value</string>
+    <string name="string">String Value</string>
+    <string name="stringvalue">Enter a string</string>
+    <string name="charvalue">Character value</string>
+    <string name="charenter">Enter a chararcter</string>
+    <string name="longdata">Long value</string>
+    <string name="Longenter">Enter a Long value</string>
+    <string name="shortdata">short value</string>
+    <string name="shortValue">Enter a short value</string>
+    <string name="booleandata">Boolean value</string>
+    <string name="BooleanValue">Enter a Boolean data only t or f</string>
+    <string name="submit">Submit</string>
+</resources>
